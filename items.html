@@ -1,0 +1,1814 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">		
+		<meta charset="UTF-8">
+		<title>Dota2.info</title>
+		<link rel="icon" href="images\11111main\fav_icon.ico" sizes="15x15">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="design\items.css" type="text/css">
+	</head>
+	<body onload="digitalWatch()">
+		<header>	
+			<img class="img1"  src = "images\11111main\menu.png">
+			<div class="button" id="but1"><a class="a1" href="heroes.html">Герои</a></div>
+			<div class="button" id="but2"><a class="a1" href="items.html">Предметы</a></div>
+			<div class="button" id="but3"><a class="a1" href="cybersport.html">Киберспорт</a></div>
+			<div class="button" id="watch"><p id="digital_watch"></p></div>
+			<div class="button" id="but4"><a class="a1" href="main.html"><img class="img2" src="images\11111main\icon.png"></a></div>
+			<div class="button" id="but5"><a class="a1" target="_blank" href="https://store.steampowered.com/login/?l=russian">Вход в стим</a></div>
+			<div class="button" id="but6"><a class="a1" target="_blank" href="https://store.steampowered.com/login/?l=russian">
+			<img class="img3" src="images\11111main\steam.png"></a></div>
+			<div class="button" id="but7"><a class="a1" target="_blank" href="https://store.steampowered.com/app/570/Dota_2/?l=russian">Скачать игру</a></div>
+			<div class="button" id="but8"><a class="a1" target="_blank" href="https://store.steampowered.com/app/570/Dota_2/?l=russian">
+			<img class="img4" src="images\11111main\dota_2.png"></a></div>
+		</header>
+		<input type="checkbox" id="check" class="hiddenMenu">
+		<div class="head">
+			<span id="content">dota2.info</span>
+			<label class="btn" for="check">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+		<ul id="menu">
+			<li class="menu111"><a href="main.html">Главная</a></li>
+		    <li class="menu111"><a href="heroes.html">Герои</a></li>
+		    <li class="menu111"><a href="items.html">Предметы</a></li>
+		    <li class="menu111"><a href="cybersport.html">Киберспорт</a></li>
+		    <li class="menu111"><a href="https://store.steampowered.com/login/?l=russian" target="_blank">Вход в steam</a></li>
+		    <li class="menu111"><a href="https://store.steampowered.com/app/570/Dota_2/?l=russian" target="_blank">Скачать игру</a></li>
+		</ul>
+		<main>
+
+			<p class="big">Основные предметы</p>
+
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Spent\icon.png"></a>
+			<p class="medium">Расходуемые</p>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item1.png"alt="Observer Ward"/>
+				<div class="info"><h3>Observer Ward</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">free</p>
+					<p>Устанавливает невидимый тотем наблюдения, который даёт наземный обзор в радиусе 1400. Действует 6 мин. Можно передать один вард союзному герою, зажав клавишу Ctrl.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item2.png"alt="Clarity"/>
+				<div class="info"><h3>Clarity</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">50</p>
+					<p>Увеличивает восстановление маны выбранного существа на 6. Действует 30 сек. Восстановление прекращается, если получить урон от вражеского героя или Рошана.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item3.png"alt="Smoke of Deceit"/>
+				<div class="info"><h3>Smoke of Deceit</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">50</p>
+					<p>Все подконтрольные игрокам существа и герои в радиусе 1200 на 35 секунд становятся невидимыми, а скорость их передвижения увеличивается на 15%. Если совершить атаку или приблизиться к вражескому герою или башне на расстояние в 1025, то невидимость раскроется. Невидимость от этого предмета не раскрывается эффектом True Sight.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item4.png"alt="Enchanted Mango"/>
+				<div class="info"><h3>Enchanted Mango</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">70</p>
+					<p>Мгновенно восстанавливает 110 маны.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item5.png"alt="Faerie Fire"/>
+				<div class="info"><h3>Faerie Fire</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">70</p>
+					<p>Мгновенно восстанавливает 85 здоровья.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item6.png"alt="Sentry Ward"/>
+				<div class="info"><h3>Sentry Ward</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">50</p>
+					<p>Устанавливает невидимого дозорного — вард, который имеет способность True Sight, в радиусе 1000 раскрывающую невидимых существ и варды в вашей видимости. Действует 6 мин. Можно передать один вард союзному герою, зажав клавишу Ctrl.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item7.png"alt="Tome of Knowledge"/>
+				<div class="info"><h3>Tome of Knowledge</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">75</p>
+					<p>Дает 700 базового опыта + 135 опыта за каждое предыдущее применение этого предмета в вашей команде.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item8.png"alt="Dust of Appearance"/>
+				<div class="info"><h3>Dust of Appearance</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">80</p>
+					<p>Делает всех невидимых героев в радиусе 1050 видимыми и замедляет их на 20%. Эффект длится 12 сек.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item9.png"alt="Tango"/>
+				<div class="info"><h3>Tango</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">90</p>
+					<p>Съедает дерево, увеличивая восстановление здоровья на 7. Действует 16 сек. Изначально имеет 3 заряда. Можно применить на союзного героя, чтобы дать ему один Tango.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item10.png"alt="Town Portal Scroll"/>				
+				<div class="info"><h3>Town Portal Scroll</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">90</p>
+					<p>После 3 сек. произнесения заклинания, телепортирует героя к выбранной союзной постройке. При двойном нажатии телепортирует к фонтану своей команды.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item11.png"alt="Healing Salve"/>
+				<div class="info"><h3>Healing Salve</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">110</p>
+					<p>Постепенно восстанавливает выбранному существу 40 здоровья на протяжении 10 сек.</p>
+					<p>Восстановление прекращается, если получить урон от вражеского героя или Рошана.</p>
+				</div>
+			</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Spent\item12.png"alt="Bottle"/>
+				<div class="info"><h3>Bottle</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">600</p>
+					<p>Тратит один заряд, чтобы постепенно восстановить цели 125 здоровья и 75 маны за 2.5 сек. Восстановление прекращается при получении урона от вражеских героев или Рошана.</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Paraphernalia\icon.png"></a>
+			<p class="medium">Атрибуты</p>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item1.png"alt="Iron Branch"/>
+				<div class="info"><h3>Iron Branch</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">50</p>
+					<p>Сажает в указанное место маленькое счастливое деревце, которое исчезнет через 20 секунд.</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item2.png"alt="Gauntlets of Strength"/>
+				<div class="info"><h3>Gauntlets of Strength</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">145</p>
+					<p>+3 к силе</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item3.png"alt="Mantle of Intelligence"/>
+				<div class="info"><h3>Mantle of Intelligence</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">145</p>
+					<p>+3 к интеллекту</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item4.png"alt="Slippers of Agility"/>
+				<div class="info"><h3>Slippers of Agility</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">145</p>
+					<p>+3 к ловкости</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item5.png"alt="Circlet"/>
+				<div class="info"><h3>Circlet</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">155</p>
+					<p>+2 ко всем атрибутам</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item6.png"alt="Band of Elvenskin"/>
+				<div class="info"><h3>Band of Elvenskin</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">455</p>
+					<p>+6 к ловкости</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item7.png"alt="Belt of Strength"/>
+				<div class="info"><h3>Belt of Strength</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">450</p>
+					<p>+6 к силе</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item8.png"alt="Crown"/>
+				<div class="info"><h3>Crown</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">450</p>
+					<p>+4 ко всем атрибутам</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item9.png"alt="Robe of the Magi"/>
+				<div class="info"><h3>Robe of the Magi</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">450</p>
+					<p>+6 к интеллекту</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item10.png"alt="Blade of Alacrity"/>
+				<div class="info"><h3>Blade of Alacrity</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1000</p>
+					<p>+10 к ловкости</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item11.png"alt="Ogre Axe"/>
+				<div class="info"><h3>Ogre Axe</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1000</p>
+					<p>+10 к силе</p>
+				</div>
+				</a>
+			<a><img onmouseover="info_over(this)" onmouseout="info_out(this)" class="block_img" src="images\111items\Paraphernalia\item12.png"alt="Staff of Wizardry"/>
+				<div class="info"><h3>Staff of Wizardry</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1000</p>
+					<p>+10 к интеллекту</p>
+				</div>
+				</a>
+			</div>
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Equipment\icon.png"></a>
+			<p class="medium">Снаряжение</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item1.png"alt="Quelling Blade"/>
+				<div class="info"><h3>Quelling Blade</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">130</p>
+					<p>Уничтожает выбранное дерево.</p>
+					<p>Дальность применения: 350</p>
+				</div>
+				</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item2.png"alt="Ring of Protection"/>
+				<div class="info"><h3>Ring of Protection</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">175</p>
+					<p>+2 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item3.png"alt="Infused Raindrops"/>
+				<div class="info"><h3>Infused Raindrops</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">225</p>
+					<p>Теряет один заряд и блокирует до 120 магического урона.</p>
+					<p>Изначально имеет 6 зарядов и пропадает вместе с последним из них.</p>
+					<p>Блокируется магического урона: 120</p>
+					<p>Число зарядов: 6</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item4.png"alt="Blight Stone"/>
+				<div class="info"><h3>Blight Stone</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">300</p>
+					<p>Атаки уменьшают броню цели на 2. Эффект длится 8 сек.</p>
+					<p>Снижение брони: 2</p>
+					<p>Длительность: 8</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item5.png"alt="Orb of Venom"/>
+				<div class="info"><h3>Orb of Venom</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">300</p>
+					<p>Отравляет атакованную цель, нанося ей периодический урон и снижая скорость передвижения в зависимости от типа атаки вашего героя.</p>
+					<p>Урон от яда в секунду: 2</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item6.png"alt="Blades of Attack"/>
+				<div class="info"><h3>Blades of Attack</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">450</p>
+					<p>+9 к урону</p>
+					<p>Длительность: 2</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item7.png"alt="Gloves of Haste"/>
+				<div class="info"><h3>Blades of Attack</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">450</p>
+					<p>+9 к урону</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item8.png"alt="Chainmail"/>
+				<div class="info"><h3>Chainmail</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">550</p>
+					<p>+4 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item9.png"alt="Quarterstaff"/>
+				<div class="info"><h3>Quarterstaff</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">875</p>
+  					<p>+10 к урону</p>
+  					<p>+10 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item10.png"alt="Helm of Iron Will"/>
+				<div class="info"><h3>Helm of Iron Will</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">925</p>
+					<p>+5 к броне</p>
+					<p>+5 к регенерации здоровья</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item11.png"alt="Blitz Knuckles"/>
+				<div class="info"><h3>Blitz Knuckles</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1000</p>
+					<p>+35 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item12.png"alt="Broadsword"/>
+				<div class="info"><h3>Broadsword</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1000</p>
+					<p>+15 к урону</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item13.png"alt="Javelin"/>
+				<div class="info"><h3>Javelin</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1100</p>
+					<p>Дает шанс нанести дополнительный урон при каждой атаке.</p>
+					<p>Шанс срабатывания: 25%</p>
+					<p>Урон: 80</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item14.png"alt="Claymore"/>
+				<div class="info"><h3>Claymore</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1400</p>
+					<p>+21 к урону</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Equipment\item15.png"alt="Mithril Hammer"/>
+				<div class="info"><h3>Mithril Hammer</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1600</p>
+					<p>+24 к урону</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Various\icon.png"></a>
+			<p class="medium">Разное</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item1.png"alt="Ring of Regen"/>
+				<div class="info"><h3>Ring of Regen</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">175</p>
+					<p>+1.5 к регенерации здоровья</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item2.png"alt="Sage's Mask"/>
+				<div class="info"><h3>Sage's Mask</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">175</p>
+					<p>+0.6 к регенерации маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item3.png"alt="Magic Stick"/>
+				<div class="info"><h3>Magic Stick</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">200</p>
+					<p>Мгновенно восстанавливает 15 здоровья и маны за каждый имеющийся заряд.</p>
+					<p>Может иметь до 10 зарядов. Получает один заряд каждый раз, когда видимый враг в радиусе 1200 использует способность</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item4.png"alt="Wind Lace"/>
+				<div class="info"><h3>Wind Lace</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">250</p>
+					<p>+20 к скорости передвижения</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item5.png"alt="Cloak"/>
+				<div class="info"><h3>Cloak</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">450</p>
+					<p>+15% к сопротивлению магии</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item6.png"alt="Boots of Speed"/>
+				<div class="info"><h3>Boots of Speed</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">500</p>
+					<p>+45 к скорости передвижения</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item7.png"alt="Ring of Tarrasque"/>
+				<div class="info"><h3>Ring of Tarrasque</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">650</p>
+					<p>+150 к здоровью</p>
+					<p>+4 к регенерации здоровья</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item8.png"alt="Gem of True Sight"/>
+				<div class="info"><h3>Gem of True Sight</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">900</p>
+					<p>Даёт владельцу и его союзникам возможность видеть невидимых существ и варды в радиусе 900.</p>
+					<p>Выпадает при смерти и не может быть уничтожен.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item9.png"alt="Morbid Mask"/>
+				<div class="info"><h3>Morbid Mask</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">900</p>
+					<p>Каждая атака восстанавливает владельцу здоровье в размере 15% от нанесённого урона.</p>
+					<p>Вампиризм: 15%</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item10.png"alt="Voodoo Mask"/>
+				<div class="info"><h3>Voodoo Mask</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">900</p>
+					<p>Даёт магический вампиризм, который восстанавливает здоровье за наносимый заклинаниями урон.</p>
+					<p>Магический вампиризм: 12%</p>
+					<p>Вампиризм по крипам: 2.5%</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item11.png"alt="Shadow Amulet"/>
+				<div class="info"><h3>Shadow Amulet</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1000</p>
+					<p>Накладывает на героя или выбранного союзника невидимость, которая действует, пока цель стоит на месте.</p>
+					<p>Цель входит в невидимость за 1.25 сек. и мгновенно выходит из неё при передвижении.</p>
+					<p>Не начинает перезаряжаться, если применить на себя.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item12.png"alt="Ghost Scepter"/>
+				<div class="info"><h3>Ghost Scepter</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1500</p>
+					<p>Придает вашему герою бесплотную форму, в которой он полностью защищен от физического урона, но получает на 40% больше магического урона и не может атаковать.</p>
+					<p>Длительность: 4</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Various\item13.png"alt="Blink Dagger"/>
+				<div class="info"><h3>Blink Dagger</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2250</p>
+					<p>Мгновенно перемещает к указанной точке на расстоянии до 1200.</p>
+					<p>Предмет нельзя использовать, если последние 3 сек. его владелец получал урон от вражеских героев или Рошана.</p>
+					<p>Максимальная дистанция телепортации: 1200</p>
+					<p>Перезарядка при получении урона: 3</p>
+				</div>
+			</a>
+			</div>
+
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Secret\icon.png"></a>
+			<p class="medium">Потайные</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item1.png"alt="Ring of Health"/>
+				<div class="info"><h3>Ring of Health</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">825</p>
+					<p>+6.5 к регенерации здоровья</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item2.png"alt="Void Stone"/>
+				<div class="info"><h3>Void Stone</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">825</p>
+					<p>+2.25 к регенерации маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item3.png"alt="Energy Booster"/>
+				<div class="info"><h3>Energy Booster</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">900</p>
+					<p>+250 к мане</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item4.png"alt="Vitality Booster"/>
+				<div class="info"><h3>Vitality Booster</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1100</p>
+					<p>+250 к здоровью</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item5.png"alt="Point Booster"/>
+				<div class="info"><h3>Point Booster</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1200</p>
+					<p>+175 к мане</p>
+					<p>+175 к здоровью</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item6.png"alt="Platemail"/>
+				<div class="info"><h3>Platemail</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1400</p>
+					<p>+10 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item7.png"alt="Talisman of Evasion"/>
+				<div class="info"><h3>Talisman of Evasion</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1400</p>
+					<p>+15% к уклонению</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item8.png"alt="Hyperstone"/>
+				<div class="info"><h3>Hyperstone</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2000</p>
+					<p>+60 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item9.png"alt="Ultimate Orb"/>
+				<div class="info"><h3>Ultimate Orb</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2050</p>
+					<p>+10 ко всем атрибутам</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item10.png"alt="Demon Edge"/>
+				<div class="info"><h3>Demon Edge</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2200</p>
+					<p>+42 к урону</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item11.png"alt="Mystic Staff"/>
+				<div class="info"><h3>Mystic Staff</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2700</p>
+					<p>+25 к интеллекту</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item12.png"alt="Eaglesong"/>
+				<div class="info"><h3>Eaglesong</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3000</p>
+					<p>+25 к ловкости</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item13.png"alt="Reaver"/>
+				<div class="info"><h3>Reaver</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3000</p>
+					<p>+25 к силе</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Secret\item14.png"alt="Sacred Relic"/>
+				<div class="info"><h3>Sacred Relic</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3800</p>
+					<p>+60 к урону</p>
+				</div>
+			</a>
+			</div>
+
+
+
+			<p class="big">Улучшения</p>
+
+
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Accessories\icon.png"></a>
+			<p class="medium">Аксессуары</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item1.png"alt="Magic Wand"/>
+				<div class="info"><h3>Magic Wand</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">450</p>
+					<p>Мгновенно восстанавливает 15 здоровья и маны за каждый имеющийся заряд.</p>
+					<p>Может иметь до 20 зарядов. Получает один заряд каждый раз, когда видимый враг в радиусе 1200 использует способность.</p>
+					<p>Максимум зарядов: 20</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item2.png"alt="Bracer"/>
+				<div class="info"><h3>Bracer</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">510</p>
+					<p>+5 к силе</p>
+					<p>+2 к ловкости</p>
+					<p>+2 к интеллекту</p>
+					<p>+3 к урону</p>
+					<p>+0.75 к восстановлению здоровья.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item3.png"alt="Null Talisman"/>
+				<div class="info"><h3>Null Talisman</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">510</p>
+					<p>+5 к интеллекту</p>
+					<p>+2 к силе</p>
+					<p>+2 к ловкости</p>
+					<p>+3% к урону от способностей</p>
+					<p>+0.6 к восстановлению маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item4.png"alt="Wraith Band"/>
+				<div class="info"><h3>Wraith Band</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">510</p>
+					<p>+5 к ловкости</p>
+					<p>+2 к силе</p>
+					<p>+2 к интеллекту</p>
+					<p>+5 к скорости атаки</p>
+					<p>+1.5 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item5.png"alt="Soul Ring"/>
+				<div class="info"><h3>Soul Ring</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">740</p>
+					<p>+6 к cиле</p>
+					<p>+2 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item6.png"alt="Power Treads"/>
+				<div class="info"><h3>Power Treads</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1450</p>
+					<p>+45 к скорости передвижения</p>
+					<p>+10 к выбранному атрибуту</p>
+					<p>+25 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item7.png"alt="Oblivion Staff"/>
+				<div class="info"><h3>Oblivion Staff</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1450</p>
+					<p>+10 к интеллекту</p>
+					<p>+10 к скорости атаки</p>
+					<p>+15 к урону</p>
+					<p>+1.25 к регенерации маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item8.png"alt="Phase Boots"/>
+				<div class="info"><h3>Phase Boots</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1500</p>
+					<p>+45 к скорости передвижения</p>
+					<p>+18 к урону (ближний бой)</p>
+					<p>+12 к урону (дальний бой бой)</p>
+					<p>+4 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item9.png"alt="Perseverance"/>
+				<div class="info"><h3>Perseverance</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1650</p>
+					<p>+6.5 к регенерации здоровья</p>
+					<p>+2.25 к регенерации маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item10.png"alt="Mask of Madness"/>
+				<div class="info"><h3>Mask of Madness</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1775</p>
+					<p>+10 к cкорости атаки</p>
+					<p>+15 к урону</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item11.png"alt="Hand of Midas"/>
+				<div class="info"><h3>Hand of Midas</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2200</p>
+					<p>+40 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item12.png"alt="Helm of the Dominator"/>
+				<div class="info"><h3>Helm of the Dominator</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2350</p>
+					<p>+6 ко всем атрибутам</p>
+					<p>+6 к броне</p>
+					<p>+6 к восстановлению здоровья</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item13.png"alt="Boots of Travel"/>
+				<div class="info"><h3>Boots of Travel</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2500</p>
+					<p>+110 к скорости передвижения</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Accessories\item14.png"alt="Moon Shard"/>
+				<div class="info"><h3>Moon Shard</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4000</p>
+					<p>Поглощает предмет и навсегда увеличивает скорость атаки на 60, а радиус обзора ночью — на 200. Можно поглотить лишь один Moon Shard.</p>
+					<p>+140 к скорости атаки</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Support\icon.png"></a>
+			<p class="medium">Поддержка</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item1.png"alt="Buckler"/>
+				<div class="info"><h3>Buckler</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">375</p>
+					<p>Увеличивает броню союзных существ, управляемых игроками на 2.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item2.png"alt="Headdress"/>
+				<div class="info"><h3>Headdress</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">425</p>
+					<p>Увеличивает восстановление здоровья союзников на 2.</p>
+					<p>Радиус: 1200</p>
+					<p>Бонус регенерации: 2</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item3.png"alt="Ring of Basilius"/>
+				<div class="info"><h3>Ring of Basilius</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">425</p>
+					<p>Увеличивает восстановление маны союзников на 1,4.</p>
+					<p>Радиус: 1200</p>
+					<p>Бонус к регенерации маны: 1.4</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item4.png"alt="Urn of Shadows"/>
+				<div class="info"><h3>Urn of Shadows</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">840</p>
+					<p>Эффект зависит от выбранной цели: либо увеличивает восстановление здоровья союзника на 30, либо наносит противнику 25 урона в секунду. Действует 8 сек.</p>
+					<p>Получает заряды каждый раз, когда в радиусе 1400 умирает вражеский герой.</p>
+					<p>+2 ко всем атрибутам</p>
+					<p>+1.5 к регенерации маны</p>
+					<p>+2 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item5.png"alt="Tranquil Boots"/>
+				<div class="info"><h3>Tranquil Boots</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">925</p>
+					<p>Если владельца атаковало существо, то предмет 13 секунд будет восстанавливать на 14 здоровья в секунду меньше, а бонус к скорости передвижения уменьшится до 45.</p>
+					<p>+70 к скорости передвижения</p>
+					<p>+14 к регенерации здоровья</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item6.png"alt="Medallion of Courage"/>
+				<div class="info"><h3>Medallion of Courage</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1025</p>
+					<p>Если использовать на союзника, увеличит его броню на 5, но заберёт её у владельца.</p>
+					<p>Если использовать на врага, снизит броню на 5 и у владельца, и у жертвы.</p>
+					<p>Дальность применения: 1000</p>
+					<p>Длительность: 7</p>
+					<p>+1.25 к регенерации маны</p>
+					<p>+5 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item7.png"alt="Arcane Boots"/>
+				<div class="info"><h3>Arcane Boots</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1400</p>
+					<p>Восстанавливает ману всем союзникам в радиусе 1200 вокруг героя.</p>
+					<p>Радиус: 1200</p>
+					<p>Восстановление маны: 160</p>
+					<p>+250 к мане</p>
+					<p>+45 к скорости передвижения</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item8.png"alt="Drum of Endurance"/>
+				<div class="info"><h3>Drum of Endurance</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1400</p>
+					<p>Действует на союзников вокруг. Увеличивает их скорость атаки на 45 и скорость передвижения на 13%. Действует 6 сек.</p>
+					<p>Радиус: 1200</p>
+					<p>+20 к скорости передвижения</p>
+					<p>+4 ко всем атрибутам</p>
+					<p>+1.5 к восстановлению маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item9.png"alt="Mekansm"/>
+				<div class="info"><h3>Mekansm</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1400</p>
+					<p>Увеличивает восстановление здоровья на 2 и броню на 3 всем союзникам в радиусе 1200.</p>
+					<p>Длительность задержки ауры: 0.5</p>
+					<p>Восстанавливает 275 здоровья всем союзникам в радиусе 1200.</p>
+					<p>Время до повторной активации: 64</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item10.png"alt="Vladmir's Offering"/>
+				<div class="info"><h3>Vladmir's Offering</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2375</p>
+					<p>Дарует союзникам вокруг эффект вампиризма — 15%, увеличивает их урон на 18%, а также усиливает восстановление маны на 2.</p>
+					<p>Радиус: 1200</p>
+					<p>Длительность задержки ауры: 0.5</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item11.png"alt="Holy Locket"/>
+				<div class="info"><h3>Holy Locket</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2500</p>
+					<p>Мгновенно восстанавливает выбранному союзному существу 15 здоровья и маны за каждый имеющийся заряд. Может иметь до 20 зарядов. Получает один заряд каждый раз, когда видимый враг в радиусе 1200 использует способность.</p>
+					<p>Дальность применения: 500</p>
+					<p>+3 ко всем атрибутам</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item12.png"alt="Spirit Vessel"/>
+				<div class="info"><h3>Spirit Vessel</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2940</p>
+					<p>Если применить на противника, то он будет терять 4% от своего текущего запаса здоровья, а также получать на 35% меньше здоровья от любого лечения. Помимо этого, способность наносит 35 урона в секунду. </p>
+					<p>Получает заряды каждый раз, когда в радиусе 1400 умирает вражеский герой.</p>
+					<p>+250 к здоровью</p>
+					<p>+2 ко всем атрибутам</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item13.png"alt="Pipe of Insight"/>
+				<div class="info"><h3>Pipe of Insight</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3425</p>
+					<p>Создаёт на владельце и окружающих его союзниках барьер, блокирующий 400 магического урона. Действует 12 сек.</p>
+					<p>Радиус: 1200</p>
+					<p>+8.5 к регенерации здоровья</p>
+					<p>+30% к сопротивлению магии</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Support\item14.png"alt="Guardian Greaves"/>
+				<div class="info"><h3>Guardian Greaves</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4975</p>
+					<p>Восстанавливает 300 здоровья и 200 маны всем союзникам вокруг, а также снимает с владельца отрицательные эффекты.</p>
+					<p>Радиус: 1200</p>
+					<p>Длительность ограничения повторного лечения: 40</p>
+					<p>+250 к мане</p>
+					<p>+4 к броне</p>
+					<p>+50 к скорости передвижения</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Magic\icon.png"></a>
+			<p class="medium">Магия</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item1.png"alt="Veil of Discord"/>
+				<div class="info"><h3>Veil of Discord</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1525</p>
+					<p>Ослабляет врагов в области радиусом 600, отчего они получают на 18% больше урона от способностей.</p>
+					<p>Дальность применения: 1000</p>
+					<p>Длительность: 16</p>
+					<p>+4 ко всем атрибутам</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item2.png"alt="Glimmer Cape"/>
+				<div class="info"><h3>Glimmer Cape</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1900</p>
+					<p>С задержкой в 0.6 сек. накладывает на героя или выбранного союзника невидимость и увеличивает сопротивление магии на 45%. Действует 5 сек.</p>
+					<p>Не останавливает прерываемые способности.</p>
+					<p>Стандартная дальность применения: 550</p>
+					<p>+15% к сопротивлению магии</p>
+					<p>+20 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item3.png"alt="Necronomicon"/>
+				<div class="info"><h3>Necronomicon</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2050</p>
+					<p>Призывает на 60 сек. подконтрольных вам воина и лучника.</p>
+					<p>Ускорение передвижения: 5%/7%/9%</p>
+					<p>Ускорение атаки: 5/7/9 </p>
+					<p>+2/3/4 к восстановлению маны</p>
+					<p>+6/12/18 к силе</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item4.png"alt="Force Staff"/>
+				<div class="info"><h3>Force Staff</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2050</p>
+					<p>Толкает выбранное существо в направлении его взгляда на расстояние в 600.</p>
+					<p>Дальность применения (союзник): 550</p>
+					<p>Дальность применения (враг): 850</p>
+					<p>+10 к интеллекту</p>
+					<p>+2.5 к регенерации здоровья</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item5.png"alt="Aether Lens"/>
+				<div class="info"><h3>Aether Lens</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2275</p>
+					<p>Увеличивает дальность применения способностей и предметов на 250.</p>
+					<p>Увеличение дальности применения: 250</p>
+					<p>+450 к мане</p>
+					<p>+3 к регенерации маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item6.png"alt="Dagon"/>
+				<div class="info"><h3>Dagon</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2650</p>
+					<p>Всплеск энергии, наносящий урон выбранному вражескому юниту. Предмет можно улучшить.</p>
+					<p>Дальность применения: 600/650/700/750/800</p>
+					<p>Задержка эффекта: 0</p>
+					<p>Урон: 400/500/600/700/800</p>
+					<p>+6/8/10/12/14 ко всем атрибутам</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item7.png"alt="Eul's Scepter of Divinity"/>
+				<div class="info"><h3>Eul's Scepter of Divinity</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2750</p>
+					<p>Поднимает выбранную цель в воздух, делая её неуязвимой на 2.5 сек. Можно использовать только на себя или противника.</p>
+					<p>Дальность применения: 575</p>
+					<p>+10 к интеллекту</p>
+					<p>+5 к регенерации маны</p>
+					<p>+20 к скорости передвижения</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item8.png"alt="Rod of Atos"/>
+				<div class="info"><h3>Rod of Atos</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2750</p>
+					<p>На 2 секунды накладывает на врага оцепенение.</p>
+					<p>Дальность применения: 1100</p>
+					<p>Длительность оцепенения: 2</p>
+					<p>+10 к силе</p>
+					<p>+10 к ловкости</p>
+					<p>+20 к интеллекту</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item9.png"alt="Orchid Malevolence"/>
+				<div class="info"><h3>Orchid Malevolence</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3475</p>
+					<p>Запрещает выбранной цели использовать способности на 5 сек. По окончании эффекта жертве наносится магический урон в размере 30% от урона, полученного за время действия.</p>
+					<p>Дальность применения: 900</p>
+					<p>+20 к интеллекту</p>
+					<p>+4 к регенерации маны</p>
+					<p>+30 к урону</p>
+					<p>+25 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item10.png"alt="Solar Crest"/>
+				<div class="info"><h3>Solar Crest</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3725</p>
+					<p>Если использовать на союзника, увеличит его броню на 8, скорость атаки на 80 и скорость передвижения на 10%. Если использовать на врага, уменьшит его броню на 8, скорость атаки на 80 и скорость передвижения на 10%. Лишает владельца дополнительной брони.</p>
+					<p>Дальность применения: 1000</p>
+					<p>Длительность: 7</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item11.png"alt="Aghanims Scepter"/>
+				<div class="info"><h3>Aghanims Scepter</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4200</p>
+					<p>+10 ко всем атрибутам</p>
+					<p>+175 к здоровью</p>
+					<p>+175 к мане</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item12.png"alt="Nullifier"/>
+				<div class="info"><h3>Nullifier</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4725</p>
+					<p>Развеивает положительные эффекты с цели в момент применения и следующие 5 сек. Любая атака замедлит цель на 80%. Длительность замедления: 0,5 сек.</p>
+					<p>Дальность применения: 900</p>
+					<p>+6 к регенерации здоровья</p>
+					<p>+8 к броне</p>
+					<p>+80 к урону</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item13.png"alt="Octarine Core"/>
+				<div class="info"><h3>Octarine Core</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5000</p>
+					<p>Уменьшает время перезарядки всех способностей и предметов на 25%.</p>
+					<p>Уменьшение перезарядки: 25%</p>
+					<p>+425 к здоровью</p>
+					<p>+425 к мане</p>
+					<p>+10% к сопротивлению магии</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item14.png"alt="Refresher Orb"/>
+				<div class="info"><h3>Refresher Orb</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5000</p>
+					<p>Сбрасывает время перезарядки всех ваших предметов и способностей.</p>
+					<p>+13 к регенерации здоровья</p>
+					<p>+12 к регенерации маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item15.png"alt="Scythe of Vyse"/>
+				<div class="info"><h3>Scythe of Vyse</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5575</p>
+					<p>Превращает цель в безобидную зверушку на 3,5 сек. Жертва не может атаковать, применять способности или использовать предметы, а её базовая скорость падает до 140. Мгновенно уничтожает иллюзии.</p>
+					<p>Дальность применения: 800</p>
+					<p>+10 к силе</p>
+					<p>+10 к ловкости</p>
+					<p>+35 к интеллекту</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Magic\item16.png"alt="Aghanim's Blessing"/>
+				<div class="info"><h3>Aghanim's Blessing</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5800</p>
+					<p>Улучшает ультимейт, а также некоторые способности всех героев.</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Armor\icon.png"></a>
+			<p class="medium">Броня</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item1.png"alt="Hood of Defiance"/>
+				<div class="info"><h3>Hood of Defiance</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1750</p>
+					<p>+8.5 к регенерации здоровья</p>
+					<p>+25% к сопротивлению магии</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item2.png"alt="Vanguard"/>
+				<div class="info"><h3>Vanguard</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1925</p>
+					<p>+250 к здоровью</p>
+					<p>+7 к регенерации здоровья</p>
+					<p>Шанс заблокировать урон: 50%</p>
+					<p>Блокирует урона (ближний бой): 70</p>
+					<p>Блокирует урона (дальний бой): 35</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item3.png"alt="Blade Mail"/>
+				<div class="info"><h3>Blade Mail</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2050</p>
+					<p>+28 к урону</p>
+					<p>+6 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item4.png"alt="Aeon Disk"/>
+				<div class="info"><h3>Aeon Disk</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3100</p>
+					<p>+300 к здоровью</p>
+					<p>+300 к мане</p>
+					<p>Если здоровье владельца упадёт ниже 70%, он получит магический щит, который развеет большинство эффектов, а также на 2.5 сек. увеличит сопротивление эффектам на 75% и не даст наносить или получать урон. Срабатывает только от урона игроков.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item5.png"alt="Soul Booster"/>
+				<div class="info"><h3>Soul Booster</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3200</p>
+					<p>+425 к здоровью</p>
+					<p>+425 к мане</p>
+					<p>+10% к сопротивлению магии</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item6.png"alt="Crimson Guard"/>
+				<div class="info"><h3>Crimson Guard</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3800</p>
+					<p>250 к здоровью</p>
+					<p>+12 к регенерации здоровья</p>
+					<p>+6 к броне</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item7.png"alt="Lotus Orb"/>
+				<div class="info"><h3>Lotus Orb</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3950</p>
+					<p>+10 к броне</p>
+					<p>+6.5 к регенерации здоровья</p>
+					<p>+4 к регенерации маны</p>
+					<p>+250 к мане</p>
+					<p>Создаёт вокруг цели щит, отражающий большинство направленных заклинаний обратно во врага. Действует 6 сек.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item8.png"alt="Black King Bar"/>
+				<div class="info"><h3>Black King Bar</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4025</p>
+					<p>10 к силе</p>
+					<p>24 к урону</p>
+					<p>Дает невосприимчивость к заклинаниям и полное сопротивление магическому урону. Продолжительность уменьшается с каждым использованием. Некоторые способности могут проходить сквозь евосприимчивость к заклинаниям.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item9.png"alt="Hurricane Pike"/>
+				<div class="info"><h3>Hurricane Pike</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4525</p>
+					<p>+15 к силе</p>
+					<p>+20 к локвости</p>
+					<p>+13 к интеллекту</p>
+					<p>+2.5 к регенерации здоровья</p>
+					<p>+140 к дальности атаки (для героев дальнего боя)</p>
+					<p>При использовании на себя или союзников работает как Force Staff.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item10.png"alt="Linken's Sphere"/>
+				<div class="info"><h3>Linken's Sphere</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4600</p>
+					<p>+14 ко всем атрибутам</p>
+					<p>+7 к регенерации здоровья</p>
+					<p>+5 к регенерации маны</p>
+					<p>Пассивная: Spellblock.</p>
+					<p>Блокирует большинство направленных способностей каждые 12 секунд.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item11.png"alt="Manta Style"/>
+				<div class="info"><h3>Manta Style</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4600</p>
+					<p>+10 к силе</p>
+					<p>+26 к ловкости</p>
+					<p>+10 к интеллекту</p>
+					<p>+8% к скорости передвижения</p>
+					<p>+12 к скорости атаки</p>
+					<p>Создаёт 2 иллюзии вашего героя, которые существуют 20 сек.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item12.png"alt="Shiva's Guard"/>
+				<div class="info"><h3>Shiva's Guard</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4850</p>
+					<p>+30 к интеллекту</p>
+					<p>+15 к броне</p>
+					<p>Активируемая: Arctic Blast.</p>
+					<p>Выпускает морозную волну, которая наносит противникам 200 магического урона и на 4 сек. снижает их скорость передвижения на 40%.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item13.png"alt="Assault cuirass"/>
+				<div class="info"><h3>Assault cuirass</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5075</p>
+					<p>+10 к броне</p>
+					<p>+30 к скорости атаки</p>
+					<p>Пассивная: Assault Aura.</p>
+					<p>Увеличивает броню союзных построек и существ на 5, а их скорость атаки — на 25. Снижает броню врагов поблизости на 5.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Armor\item14.png"alt="Heart of Tarrasque"/>
+				<div class="info"><h3>Heart of Tarrasque</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5400</p>
+					<p>+40 к силе</p>
+					<p>+400 к здоровью</p>
+					<p>+1% регенерации от максимального здоровья</p>
+					<p>Увеличивает всё пассивное восстановление здоровья на 50%.</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Weapon\icon.png"></a>
+			<p class="medium">Оружие</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item1.png"alt="Crystalys"/>
+				<div class="info"><h3>Crystalys</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1950</p>
+					<p>+32 к урон</p>
+					<p>Пассивная: Critical Strike</p>
+					<p>Каждая атака может с вероятностью в 30% нанести 160% урона</p>
+					<p>Шанс срабатывания: 30</p>
+					<p>Критический урон: 160</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item2.png"alt="Meteor Hammer"/>
+				<div class="info"><h3>Meteor Hammer</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2350</p>
+					<p>+8 ко всем атрибутам</p>
+					<p>+6.5 к регенерации здоровья</p>
+					<p>+2.5 к регенерации маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item3.png"alt="Armlet of Mordiggian"/>
+				<div class="info"><h3>Armlet of Mordiggian</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2475</p>
+					<p>+5 к регенерации здоровья</p>
+					<p>+5 к броне</p>
+					<p>+15 к урону</p>
+					<p>+25 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item4.png"alt="Skull Basher"/>
+				<div class="info"><h3>Skull Basher</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2950</p>
+					<p>+25 урона</p>
+					<p>+10 силы</p>
+					<p>Пассивная: Bash.</p>
+					<p>Каждая атака может оглушить цель на 1,5 сек. и нанести 100 физического урона. Вероятность зависит от типа атаки владельца: 25% в ближнем бою, 10% — в дальнем.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item5.png"alt="Shadow Blade"/>
+				<div class="info"><h3>Shadow Blade</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3000</p>
+					<p>+25 к урону</p>
+					<p>+35 к скорости атаки</p>
+					<p>Активируемая: Shadow Walk.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item6.png"alt="Battle Fury"/>
+				<div class="info"><h3>Battle Fury</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4180</p>
+					<p>+7,5 к регенерации здоровья</p>
+					<p>+3,25 к регенерации маны</p>
+					<p>+55 к урону</p>
+					<p>Активируемая: Chop Tree.</p>
+					<p>Уничтожает выбранное дерево.</p>
+					<p>Дальность применения: 350</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item7.png"alt="Ethereal Blade"/>
+				<div class="info"><h3>Ethereal Blade</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4500</p>
+					<p>+40 к ловкости</p>
+					<p>+10 к силе</p>
+					<p>+10 к интеллекту</p>
+					<p>Придаёт цели бесплотную форму, которая полностью защищает от физического урона, но не позволяет атаковать и увеличивает получаемый магический урон на 40%. Действует 4 сек.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item8.png"alt="Monkey King Bar"/>
+				<div class="info"><h3>Monkey King Bar</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4850</p>
+					<p>+42 к урону</p>
+					<p>+35 к скорости атаки</p>
+					<p>Пассивная: Pierce.</p>
+					<p>Каждая атака может с вероятностью в 75% пройти сквозь уклонение и нанести 100 дополнительного магического урона.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item9.png"alt="Daedalus"/>
+				<div class="info"><h3>Daedalus</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5150</p>
+					<p>+88 к урону</p>
+					<p>Пассивная: Critical Strike.</p>
+					<p>Каждая атака может с вероятностью в 30% нанести 225% урона.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item10.png"alt="Radiance"/>
+				<div class="info"><h3>Radiance</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5150</p>
+					<p>+60 к урону</p>
+					<p>Активируемая: Burn.</p>
+					<p>Если включена, каждую секунду наносит противникам 60 магического урона и ослепляет их, вынуждая промахиваться в 17% случаев. На иллюзиях наносит 35 магического урона в секунду.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item11.png"alt="Butterfly"/>
+				<div class="info"><h3>Radiance</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5150</p>
+					<p>+60 к урону</p>
+					<p>Активируемая: Burn.</p>
+					<p>Если включена, каждую секунду наносит противникам 60 магического урона и ослепляет их, вынуждая промахиваться в 17% случаев. На иллюзиях наносит 35 магического урона в секунду.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item12.png"alt="Divine Rapier"/>
+				<div class="info"><h3>Divine Rapier</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">6000</p>
+					<p>+330 к урону</p>
+					<p>Пассивная: Everlasting.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item13.png"alt="Silver Edge"/>
+				<div class="info"><h3>Silver Edge</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">6100</p>
+					<p>+12 к силе</p>
+					<p>+10 к интеллекту</p>
+					<p>+1,5 к регенерации маны</p>
+					<p>+40 к урону</p>
+					<p>+45 к скорости атаки</p>
+					<p>Активируемая: Shadow Walk.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item14.png"alt="Bloodthorn"/>
+				<div class="info"><h3>Bloodthorn</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">6475</p>
+					<p>+25 к интеллекту</p>
+					<p>+90 к скорости атаки</p>
+					<p>+30 к урону</p>
+					<p>+5.5 к регенерации маны</p>
+					<p>Активируемая: Soul Rend.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Weapon\item15.png"alt="Abyssal Blade"/>
+				<div class="info"><h3>Abyssal Blade</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">6625</p>
+					<p>+10 к силе</p>
+					<p>+250 к здоровью</p>
+					<p>+10 к регенерации здоровья</p>
+					<p>+25 к урону</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<a><img class="icon" src="images\111items\Artifacts\icon.png"></a>
+			<p class="medium">Артефакты</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item1.png"alt="Dragon Lance"/>
+				<div class="info"><h3>Dragon Lance</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">1900</p>
+					<p>+14 к ловкости</p>
+					<p>+12 к силе</p>
+					<p>+140 к дальности атаки (для героев дальнего боя)</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item2.png"alt="Kaya"/>
+				<div class="info"><h3>Kaya</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2050</p>
+					<p>+16 к интеллекту</p>
+					<p>+8% к урону от заклинаний</p>
+					<p>+24% к вампиризму от заклинаний</p>
+					<p>+24% к восстановлению маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item3.png"alt="Sange"/>
+				<div class="info"><h3>Sange</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2050</p>
+					<p>+16 к ловкости</p>
+					<p>+12 к скорости атаки</p>
+					<p>+8% к скорости передвижения</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item4.png"alt="Yasha"/>
+				<div class="info"><h3>Yasha</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2050</p>
+					<p>+24% к здоровью от восстановления и вампиризма</p>
+					<p>+16 к силе</p>
+					<p>+16% к сопротивлению эффектам</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item5.png"alt="Echo Sabre"/>
+				<div class="info"><h3>Echo Sabre</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2500</p>
+					<P>+12 к силе</P>
+					<P>+10 к интеллекту</P>
+					<P>+1.25 к регенерации маны</P>
+					<P>+15 к урону</P>
+					<P>+10 к скорости атаки</P>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item6.png"alt="Maelstrom"/>
+				<div class="info"><h3>Maelstrom</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">2700</p>
+					<p>+24 к урону</p>
+					<p>Пассивная: Chain Lightning.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item7.png"alt="Diffusal Blade"/>
+				<div class="info"><h3>Diffusal Blade</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3150</p>
+					<p>+20 к ловкости</p>
+					<p>+10 к интеллекту</p>
+					<p>Замедляет противника на 4 секунды.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item8.png"alt="Desolator"/>
+				<div class="info"><h3>Desolator</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3500</p>
+					<p>+60 к урону</p>
+					<p>Пассивная: Corruption.</p>
+					<p>Ваши атаки уменьшают броню цели на 6. Эффект длится 7 секунд.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item9.png"alt="Heaven's Halberd"/>
+				<div class="info"><h3>Heaven's Halberd</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">3850</p>
+					<p>+20 к силе</p>
+					<p>+20% к уклонению</p>
+					<p>+20% к сопротивлению эффектам</p>
+					<p>+30% к здоровью от восстановления и вампиризма</p>
+					<p>Активируемая: Disarm.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item10.png"alt="Kaya and Sange"/>
+				<div class="info"><h3>Kaya and Sange</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4100</p>
+					<p>+16 к силе</p>
+					<p>+16 к интеллекту</p>
+					<p>+20% к сопротивлению эффектам</p>
+					<p>+16% к урону способностей</p>
+					<p>+30% к усилению вампиризма</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item11.png"alt="Sange and Yasha"/>
+				<div class="info"><h3>Sange and Yasha</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4100</p>
+					<p>+16 к силе</p>
+					<p>+16 к ловкости</p>
+					<p>+20% к сопротивлению эффектам</p>
+					<p>+10% к скорости передвижения</p>
+					<p>+16 к скорости атаки</p>
+					<p>+30% к усилению вампиризма</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item12.png"alt="Yasha and Kaya"/>
+				<div class="info"><h3>Yasha and Kaya</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">4100</p>
+					<p>+16 к ловкости</p>
+					<p>+16 к интеллекту</p>
+					<p>+30% к восстановлению маны</p>
+					<p>+10% к скорости передвижения</p>
+					<p>+16% к урону от заклинаний</p>
+					<p>+30% к вампиризму от заклинаний</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item13.png"alt="Eye of Skadi"/>
+				<div class="info"><h3>Eye of Skadi</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5300</p>
+					<p>+25 ко всем атрибутам</p>
+					<p>+225 к здоровью</p>
+					<p>+250 к мане</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item14.png"alt="Mjollnir"/>
+				<div class="info"><h3>Mjollnir</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5600</p>
+					<p>+24 к урону</p>
+					<p>+65 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Artifacts\item15.png"alt="Satanic"/>
+				<div class="info"><h3>Satanic</h3>
+					<p><img style="margin-right:2%" src="images\111items\gold.png">5800</p>
+					<p>+25 к силе</p>
+					<p>+25 к урону</p>
+					<p>+30% к сопротивлению эффектам</p>
+				</div>
+			</a>
+			</div>
+
+
+			<p class="big">Нейтральные предметы</p>
+
+			<div class="block">
+			<p class="medium_2">1 разряд</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item1.png"alt="Arcane Ring"/>
+				<div class="info"><h3>Arcane Ring</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>+10 к интеллекту</p>
+					<p>+2 к броне</p>
+					<p>Активируемая: Replenish Mana.</p>
+					<p>Восстанавливает 75 маны всем союзникам в радиусе 1200.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item2.png"alt="Broom Handle"/>
+				<div class="info"><h3>Broom Handle</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>+3 к броне</p>
+					<p>+12 к урону</p>
+					<p>+50 к дальности атаки (ближний бой)</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item3.png"alt="Iron Talon"/>
+				<div class="info"><h3>Iron Talon</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>+2 к броне</p>
+					<p>+15 к скорости атаки</p>
+					<p>Наносит вражескому существу, которое не контролируют игроки, урон в размере 40% от его текущего здоровья.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item4.png"alt="Ironwood Tree"/>
+				<div class="info"><h3>Ironwood Tree</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>+6 ко всем атрибутам</p>
+					<p>Сажает в указанное место маленькое счастливое деревце, которое исчезнет через 20 секунд.</p>
+					<p>Дальность применения: 800</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item5.png"alt="Keen Optic"/>
+				<div class="info"><h3>Keen Optic</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>+75 к дальности применения способностей</p>
+					<p>+1.25 к восстановлению маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item6.png"alt="Mango Tree"/>
+				<div class="info"><h3>Mango Tree</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>Сажает в указанную точку манговое дерево, дающее неограниченную манговую мощь. С дерева каждые 60 сек. падает Enchanted Mango, и оно даёт вокруг себя беспрепятственный обзор.</p>
+					<p>Радиус обзора: 1000</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item7.png"alt="Ocean Heart"/>
+				<div class="info"><h3>Ocean Heart</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>+5 к силе</p>
+					<p>+5 к ловкости</p>
+					<p>+5 к интеллекту</p>
+					<p>Увеличивает восстановление здоровья на 8 и восстановление маны на 4.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item8.png"alt="Poor Man's Shield"/>
+				<div class="info"><h3>Poor Man's Shield</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>+8 к ловкости</p>
+					<p>Дает 100% шанс заблокировать 30 урона от входящих атак на героях ближнего боя, и 20 урона на героях дальнего боя.</p>
+					<p>Имеет 50% шанс заблокировать урон против крипов.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item9.png"alt="Royal Jelly"/>
+				<div class="info"><h3>Royal Jelly</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>Навсегда увеличивает союзнику восстановление здоровья на 2,25 и восстановление маны на 1,25.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\1_tier\item10.png"alt="Trusty Shovel"/>
+				<div class="info"><h3>Trusty Shovel</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">7:00</p>
+					<p>+100 к здоровью</p>
+					<p>Применяется 1 секунду и может выкопать руну богатства, Healing Salve, свиток телепортации или вражеского кобольда. Выкапываемые сокровища не повторяются. Шанс выпадения руны богатства/Healing Salve/свитка телепортации/нейтрального крипа: 16%/28%/28%/28%.</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<p class="medium_2">2 разряд</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item1.png"alt="Clumsy Net"/>
+				<div class="info"><h3>Clumsy Net</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+5 к силе</p>
+					<p>+5 к ловкости</p>
+					<p>+5 к интеллекту</p>
+					<p>+2 к регенерации маны</p>
+					<p>Накладывает оцепенение на врага и на владельца на 1,75 секунды.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item2.png"alt="Dragon Scale"/>
+				<div class="info"><h3>Dragon Scale</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+5 к броне</p>
+					<p>+5 к восстановлению здоровья</p>
+					<p>Атаки владельца на 3 секунды поджигают врага, нанося ему 18 урона в секунду.</p>
+					<p>Урон: 18</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item3.png"alt="Essence Ring"/>
+				<div class="info"><h3>Essence Ring</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+6 к интеллекту</p>
+					<p>+2.5 к восстановлению маны</p>
+					<p>Увеличивает текущее и максимальное здоровье на 425. Действует 15 сек.</p>
+					<p>Дополнительное здоровье: 425</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item4.png"alt="Grove Bow"/>
+				<div class="info"><h3>Grove Bow</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+15 к скорости атаки</p>
+					<p>+100 к дальности атаки (дальний бой)</p>
+					<p>Атаки снижают сопротивление магии жертвы на 12%</p>
+					<p>Снижение сопротивления магии: 12%</p>
+					<p>Длительность: 6</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item5.png"alt="Imp Claw"/>
+				<div class="info"><h3>Imp Claw</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+24 к урону</p>
+					<p>Делает следующую атаку владельца критической. Она нанесёт 130% урона.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item6.png"alt="Nether Shawl"/>
+				<div class="info"><h3>Nether Shawl</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+8% к урону от способностей</p>
+					<p>+25% к сопротивлению магии</p>
+					<p>-3 к броне.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item7.png"alt="Philosopher's Stone"/>
+				<div class="info"><h3>Philosopher's Stone</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+70 золота в минуту</p>
+					<p>+200 к мане</p>
+					<p>-30 к урону от атак.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item8.png"alt="Pupil's Gift"/>
+				<div class="info"><h3>Pupil's Gift</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+13 к неосновным атрибутам</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item9.png"alt="Ring of Aquila"/>
+				<div class="info"><h3>Ring of Aquila</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+3 к силе</p>
+					<p>+9 к ловкости</p>
+					<p>+3 к интеллекту</p>
+					<p>+7 к урону</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item10.png"alt="Vambrace"/>
+				<div class="info"><h3>Vambrace</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+10 к атрибуту предмета</p>
+					<p>+5 к остальным атрибутам</p>
+					<p>Сила: +10% к сопротивлению магии</p>
+					<p>Ловкость: +10 к скорости атаки</p>
+					<p>Интеллект: +6% к урону от способностей</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\2_tier\item11.png"alt="Vampire Fangs"/>
+				<div class="info"><h3>Vampire Fangs</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">17:00</p>
+					<p>+15% к вампиризму</p>
+					<p>+6% к вампиризму от заклинаний</p>
+					<p>+300 к дальности обзора ночью</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<p class="medium_2">3 разряд</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item1.png"alt="Craggy Coat"/>
+				<div class="info"><h3>Craggy Coat</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>+12 к броне</p>
+					<p>-35 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item2.png"alt="Enchanted Quiver"/>
+				<div class="info"><h3>Enchanted Quiver</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>Активная: Certain Strike - Усиливает следующую атаку в дальнем бою: увеличивает её дальность на 400 и добавляет к ней 300 магического урона. Этой атакой нельзя промахнуться.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item3.png"alt="Greater Faerie Fire"/>
+				<div class="info"><h3>Greater Faerie Fire</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>+35 к урону</p>
+					<p>Мгновенно восстанавливает 450 здоровья.</p>
+					<p>Восстанавливает здоровья: 450</p>
+					<p>Количество зарядов: 3</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item4.png"alt="Mind Breaker"/>
+				<div class="info"><h3>Mind Breaker</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>Пассивная: Silence Strike - Атака по герою накладывает на него эффект молчания на 1,5 секунды.</p>
+					<p>+25 скорости атаки</p>
+					<p>+25магического урона</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item5.png"alt="Orb of Destruction"/>
+				<div class="info"><h3>Orb of Destruction</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>Замедление скорости передвижения (ближний бой): 25%</p>
+					<p>Замедление скорости передвижения (дальний бой): 15%</p>
+					<p>Снижение брони: 4</p>
+					<p>Длительность: 4</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item6.png"alt="Paladin Sword"/>
+				<div class="info"><h3>Paladin Sword</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>+20 к урону</p>
+					<p>+16% вампиризму</p>
+					<p>+14% к усилению вампиризма</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item7.png"alt="Quickening Charm"/>
+				<div class="info"><h3>Quickening Charm</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>+9 к регенерации здоровья.</p>
+					<p>Уменьшает перезарядку всех предметов и способностей на 13%.</p>
+					<p>Уменьшение перезарядки: 13%</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item8.png"alt="Repair Kit"/>
+				<div class="info"><h3>Repair Kit</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>+25 к регенерации здоровья</p>
+					<p>Накладывает на выбранную постройку эффект, который за 30 сек. восстановит ей 40% здоровья. Во время действия постройка получает +10 к броне.</p>
+					<p>Количество зарядов: 3</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item9.png"alt="Spider Legs"/>
+				<div class="info"><h3>Spider Legs</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>Активная: Scurry - Увеличивает скорость передвижения на 28% и даёт свободное перемещение. Действует 3 сек. Владелец разрушает деревья, по которым проходит.</p>
+					<p>+65 к скорости передвижения (не складывается с ботинками) +50% к скорости поворота</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item10.png"alt="Telescope"/>
+				<div class="info"><h3>Telescope</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>Пассивная: Prescient Aura - Снижает перезарядку сканирования на 50%. Увеличивает дальность атаки и применения способностей союзников неподалёку на 125.</p>
+					<p>Дальность ауры: 1200</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\3_tier\item11.png"alt="Titan Sliver"/>
+				<div class="info"><h3>Titan Sliver</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">27:00</p>
+					<p>+20% к базовому урону</p>
+					<p>+16% к сопротивлению магии</p>
+					<p>+12% к сопротивлению эффектам</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<p class="medium_2">4 разряд</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item1.png"alt="Flicker"/>
+				<div class="info"><h3>Flicker</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>Активная: Flicker - Снимает с владельца отрицательные эффекты и перемещает его в случайную точку в радиусе 400.</p>
+					<p>+40 к скорости передвижения.</p>
+					<p>Минимальная дальность применения: 200</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item2.png"alt="Havoc Hammer"/>
+				<div class="info"><h3>Havoc Hammer</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>Активная: Havoc - Отталкивает врагов в радиусе 400 на 250 единиц, также на 3 секунды замедляя их передвижение и скорость атаки на 50%.</p>
+					<p>+35 к урону</p>
+					<p>+18 к силе</p>
+					<p>УРОН: 275 +1*силу героя</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item3.png"alt="Illusionist's Cape"/>
+				<div class="info"><h3>Illusionist's Cape</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>Активная: Create Illusion - Создаёт подконтрольную иллюзию владельца предмета, которая наносит 50% урона, получает 200% урона и живёт 30 секунд.</p>
+					<p>Пассивная: Illusion Mastery - Увеличивает исходящий урон всех иллюзий и подконтрольных юнитов на 10% + 10 к силе + 10 к ловкости.</p>
+					<p>Иллюзии умирают, если предмет не экипирован.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item4.png"alt="Magic Lamp"/>
+				<div class="info"><h3>Magic Lamp</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>Пассивная: Rejuvenate - Когда здоровье владельца падает ниже 20%, на него применяется сильное развеивание, и он излечивается на 400 здоровья.</p>
+					<p>+400 к здоровью.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item5.png"alt="Minotaur Horn"/>
+				<div class="info"><h3>Minotaur Horn</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>Активная: Lesser Avatar - Даёт невосприимчивость к заклинаниям и полное сопротивление магическому урону на 2 секунды.</p>
+					<p>+20 к силе</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item6.png"alt="Ninja Gear"/>
+				<div class="info"><h3>Ninja Gear</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>Активная: Solitary Disguise - Применяет на владельца эффект предмета Smoke of Deceit.</p>
+					<p>+20 к ловкости</p>
+					<p>+30 к скорости передвижения.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item7.png"alt="Prince's Knife"/>
+				<div class="info"><h3>Prince's Knife</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>Пассивная: Hex Strike - Следующая атака превратит жертву в лягушку на 1.5 секунды.</p>
+					<p>+60% к скорости снарядов атаки.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item8.png"alt="Spell Prism"/>
+				<div class="info"><h3>Spell Prism</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>+12 ко всем характеристикам</p>
+					<p>+4 к восстановлению маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item9.png"alt="The Leveller"/>
+				<div class="info"><h3>The Leveller</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>+25% урона по постройкам</p>
+					<p>+60 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item10.png"alt="Timeless Relic"/>
+				<div class="info"><h3>Timeless Relic</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>+25% к длительности отрицательных эффектов</p>
+					<p>+15% к урону от способностей</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\4_tier\item11.png"alt="Witless Shako"/>
+				<div class="info"><h3>Witless Shako</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">37:00</p>
+					<p>+1200 к максимальному здоровью</p>
+					<p>-400 к максимальной мане</p>
+				</div>
+			</a>
+			</div>
+
+			<div class="block">
+			<p class="medium_2">5 разряд</p>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item1.png"alt="Apex"/>
+				<div class="info"><h3>Apex</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>Увеличивает показатель основного атрибута на 75.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item2.png"alt="Ballista"/>
+				<div class="info"><h3>Ballista</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>Пассивная: Knockback - Каждая атака отталкивает врага на 50 единиц.</p>
+					<p>Добавляет к каждой атаке 40 чистого урона.</p>
+					<p>+250 к дальности атаки (в дальнем бою).</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item3.png"alt="Book of the Dead"/>
+				<div class="info"><h3>Book of the Dead</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>Активная: Greater Demonic Summoning - Призывает 4 существа от Necronomicon 3 уровня,у которых на 50% больше здоровья и урона и которые живут 75 секунд.</p>
+					<p>+30 к силе</p>
+					<p>+30 к интеллекту</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item4.png"alt="Ex Machina"/>
+				<div class="info"><h3>Ex Machina</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>+20 к броне</p>
+					<p>Сбрасывает время перезарядки всех предметов, кроме Refresher Orb.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item5.png"alt="Fallen Sky"/>
+				<div class="info"><h3>Fallen Sky</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>+20 к силе</p>
+					<p>+20 к интеллекту</p>
+					<p>+15 к восстановлению здоровья</p>
+					<p>+10 к восстановлению маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item6.png"alt="Force Boots"/>
+				<div class="info"><h3>Force Boots</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>+115 к скорости передвижения</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item7.png"alt="Mirror Shield"/>
+				<div class="info"><h3>Mirror Shield</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>+20 ко всем атрибутам.</p>
+					<p>Пассивная: Echo Shield - Блокирует и отражает большинство направленных заклинаний обратно во врага.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item8.png"alt="Pirate Hat"/>
+				<div class="info"><h3>Pirate Hat</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>Активируемая: выкапывает руну богатства.</p>
+					<p>Перезарядка: 40</p>
+					<p>+150 к скорости атаки</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item9.png"alt="Seer Stone"/>
+				<div class="info"><h3>Seer Stone</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>+350 к дальности применения способностей</p>
+					<p>+350 к обзору днём и ночью </p>
+					<p>+10   к восстановлению маны</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item10.png"alt="Stygian Desolator"/>
+				<div class="info"><h3>Stygian Desolator</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>Пассивная: Greater Gorruption — Атаки уменьшают броню на 10 Эффект длится 7 сек.</p>
+					<p>+75 к урону от атак.</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item11.png"alt="Woodland Striders"/>
+				<div class="info"><h3>Woodland Striders</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>+140 к скорости передвижения</p>
+					<p>+60 к восстановлению здоровья</p>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)"src="images\111items\5_tier\item12.png"alt="Trident"/>
+				<div class="info"><h3>Trident</h3>
+					<p><img style="margin-right:2%" src="images\111items\recharge.png">60:00</p>
+					<p>+30 ко всем характеристикам</p>
+					<p>+10% к скорости передвижения</p>
+					<p>+30 к скорости атаки</p>
+					<p>+30% к сопротивлению эффектам</p>
+					<p>+30% к урону от способностей.</p>
+				</div>
+			</a>
+			</div>
+
+			<p class="big">Выпадают с Рошана</p>
+			<div class="block">
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Rosh\item1.png"alt="Aegis of the Immortal"/>
+				<div class="info"><h3>Aegis of the Immortal</h3>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Rosh\item2.png"alt="Сheese"/>
+				<div class="info"><h3>Сheese</h3>
+				</div>
+			</a>
+			<a><img class="block_img" onmouseover="info_over(this)" onmouseout="info_out(this)" src="images\111items\Rosh\item3.png"alt="Refresher Shard"/>
+				<div class="info"><h3>Refresher Shard</h3>
+				</div>
+			</a>
+			</div>
+		</main>
+		<footer>
+			<p>Designed by Greenri and Tyrlock</p>
+			<p>Page was created 08.11.2020</p>
+		</footer>
+		<script type="text/javascript">
+			function digitalWatch() 
+ 			{
+				var date = new Date();
+				var hours = date.getHours();
+				var minutes = date.getMinutes();
+				var seconds = date.getSeconds();
+				if (hours < 10) hours = "0" + hours;
+				if (minutes < 10) minutes = "0" + minutes;
+				if (seconds < 10) seconds = "0" + seconds;
+				document.getElementById("digital_watch").innerHTML = hours + ":" + minutes + ":" + seconds;
+				setTimeout("digitalWatch()", 1000);
+			}
+			var left = -20;
+			function info_over(img)
+			{
+				
+				var a=img.nextElementSibling;
+				a.style.display="block";
+				a.style.left= left + '%';
+
+			}
+
+			function info_out(img)
+			{
+				var a=img.nextElementSibling;
+				a.style.display="none";
+				//left -=2;
+				a.style.left = 0;
+			}
+
+		</script>
+	</body>
+	</html>

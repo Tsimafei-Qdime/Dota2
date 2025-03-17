@@ -1,0 +1,374 @@
+html
+{
+	font-family: 'Montserrat', sans-serif;
+ 	background: linear-gradient(to top right, #090c18, #24323b);
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 1.5vw;
+	width: 100%;
+}
+header
+{
+	position: sticky;
+	margin:0;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+/*Watch*/
+#digital_watch
+{
+	color: #6d6f72;
+}
+
+/*Watch*/
+#watch
+{	
+	left: 67%;
+	top: 0%;
+
+}
+/*menu*/
+.img1
+{
+    width: 100%;
+}
+
+main
+{
+	min-height: 100%;
+}
+
+div.button
+{
+	position: absolute;
+	font-size: 1.2vw;
+	z-index: 99999999999;
+}
+
+a:hover
+{
+    color: red;
+    transition: color 0.5s;
+
+}
+
+/*Heroes*/
+#but1
+{
+	width: 1%;
+	height: 0.5%;
+	top:24%;
+	left: 21.5%;
+}
+
+/*Items */
+#but2
+{
+	top: 24%;
+	left: 29.5%;
+}
+
+/*Teams*/
+#but3
+{
+	top:24%;
+	left: 39.6%;
+}
+
+/*Main*/
+#but4
+{
+	width: 10%;
+	height: 10%;
+	top:0%;
+	left: 10%;
+}
+
+/*Main*/
+.img2
+{
+    width: 100%;
+}
+
+/*Log Steam txt*/
+#but5
+{
+	top:14%;
+	right: 3%;
+	font-size: 0.7vw;
+}
+
+/*Log steam*/
+#but6
+{
+	width: 1%;
+	height: 1%;
+	top:3%;
+	left: 98%;
+}
+
+/*Log Steam img*/
+.img3
+{
+    width: 100%;
+}
+
+/*download game*/
+#but7
+{
+	top:45%;
+	right: 3%;
+	font-size: 0.7vw;
+}
+
+/*download game*/
+#but8
+{
+	width: 1.3%;
+	height: 1%;
+	top:40%;
+	left: 97.9%;
+}
+
+/*download game img*/
+.img4
+{
+	width: 100%;
+}
+
+/*menu*/
+.a1
+{
+	color: #6d6f72	;
+	text-decoration:none;
+	font-weight: 600;
+}
+
+/*Style for head-big*/
+.big
+{
+	font-size: 2.5vw;
+	color: #cccccc;
+	margin-left: 5%;
+}
+
+/*Style for head-medium*/
+.medium
+{
+	font-size: 1.8vw;
+	color: #cccccc;
+	margin-left: 5%;
+	margin-top: -2.6% ; 
+}
+
+/*Style for icons*/
+.icon
+{
+	margin-left: 2.8%;
+	width: 2%;
+}
+
+/*Style for div for img*/
+.block
+{
+	margin-bottom:5%; 
+	margin-left: 5%;
+}
+
+/*Style img*/
+.block_img
+{
+	margin-top: 2%;
+	margin-left: 2.5%;	
+}
+
+/*Style for head-midium2*/
+.medium_2
+{
+	font-size: 1.8vw;
+	color: #cccccc;
+	margin-left: 2.8%;
+	margin-top: -2.6% ; 
+}
+
+/*Info items*/
+.info
+{
+	background: #1b1c20;
+	position: absolute;
+	display: none;
+	color: #acacac;
+	z-index: 9999999999999;
+	width: 200%;
+	padding-left:2%; 
+	padding-right:2%; 
+	font-size: 1vw;
+	border:1px solid black;
+}
+
+main a
+{
+	position: relative;
+}
+
+/*footer*/
+footer
+{
+	text-transform: uppercase;
+	color: #cccccc;
+	font-weight:300; 
+	font-size: 0.7vw;
+	background: #333333;
+	position: absolute;
+	width: 100%;
+	text-align: right;
+	z-index: 101;
+}
+
+/*Hidden Menu*/
+.hiddenMenu, ul, .head
+{
+    display: none;
+}
+
+.menu111
+{
+padding-bottom: 10%;
+}
+
+/*Mobyle style*/
+@media screen and (min-width:0px) and (max-width:768px)
+{
+
+    header
+    {
+        display: none;
+    }
+    .head
+    {
+        display: block;
+        margin: 0;
+        border:1px solid #410000;
+        background: #410000;
+    }
+    #content
+    {
+        position: absolute;
+        margin: .5% 0 0 45%;
+        text-align: center;
+        color: #ccc;
+        font-size: 2vw;
+    }
+    .btn
+    {
+        display: block;
+        margin: 1% 0 2% 0;
+        cursor: pointer;
+        z-index: 1000;
+
+    }
+
+    .btn span
+    {
+        display: block;
+        width: 20px;
+        height: 3px; 
+        background-color: #ccc;
+        margin: 0.5% 0 .5% .5%;
+    }
+    #menu 
+    {
+        z-index: 10;
+        display: block;
+        position: fixed;
+        list-style:none;
+        width: 40%;
+        height: 100%;
+        margin: 0;
+        background-color: #333;
+        top: 0;
+        left: -100%;
+        transition: left 1s;
+    }
+    ul 
+    {
+        padding: 7% 0 0 0;
+    }
+    #menu li
+    {
+        text-align: center;
+        margin: 3% 0;
+    }
+ 
+    #menu li a 
+    {
+        font-size:2vw;
+        color:#ccc;
+        text-decoration: none;
+    }
+    #menu li a:hover
+    {
+        color: #d21111;
+        transition: color 1s;
+    }
+    .hiddenMenu:checked ~ #menu
+    {
+        left: 0;
+        transition: left 1s;
+    }
+    .medium
+	{
+		font-size: 3vw;
+		color: #cccccc;
+		margin-left: 10%;
+		margin-top: -6% ; 
+	}
+	.icon
+	{
+		margin-left: 2.8%;
+		width: 7%;
+	}
+	.big
+	{
+		font-size: 6vw;
+		color: #cccccc;
+		text-align: center;
+	}
+	.medium_2
+	{
+		font-size: 3vw;
+		color: #cccccc;
+		margin-left: 2.8%;
+		margin-top: -2.6% ; 
+	}
+	.info
+	{
+		background: #1b1c20;
+		position: absolute;
+		display: none;
+		color: #acacac;
+		z-index: 9999999999999;
+		width: 180%;
+		padding-left:0; 
+		padding-right:5%; 
+		font-size: 3vw;
+		border:1px solid black;
+	}
+	footer
+	{
+		text-transform: uppercase;
+		color: #cccccc;
+		font-weight:300; 
+		font-size: 2vw;
+		background: #333333;
+		position: absolute;
+		width: 100%;
+		text-align: right;
+		z-index: 101;
+	}
+}

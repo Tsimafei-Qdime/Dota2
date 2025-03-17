@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Dota2.info</title>
+		<link rel="icon" href="images\11111main\fav_icon.ico" sizes="15x15">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="design\main.css" type="text/css">
+
+	</head>
+	<body onload="digitalWatch()">
+		<header>
+			<img class="img1"  src = "images\11111main\menu.png">
+			<div class="button" id="but1"><a class="a1" href="heroes.html">Герои</a></div>
+			<div class="button" id="but2"><a class="a1" href="items.html">Предметы</a></div>
+			<div class="button" id="but3"><a class="a1" href="cybersport.html">Киберспорт</a></div>
+			<div class="button" id="watch"><p id="digital_watch"></p></div>
+			<div class="button" id="but4"><a class="a1" href="main.html"><img class="img2" src="images\11111main\icon.png"></a></div>
+			<div class="button" id="but5"><a class="a1" target="_blank" href="https://store.steampowered.com/login/?l=russian">Вход в стим</a></div>
+			<div class="button" id="but6"><a class="a1" target="_blank" href="https://store.steampowered.com/login/?l=russian">
+			<img class="img3" src="images\11111main\steam.png"></a></div>
+			<div class="button" id="but7"><a class="a1" target="_blank" href="https://store.steampowered.com/app/570/Dota_2/?l=russian">Скачать игру</a></div>
+			<div class="button" id="but8"><a class="a1" target="_blank" href="https://store.steampowered.com/app/570/Dota_2/?l=russian">
+			<img class="img4" src="images\11111main\dota_2.png"></a></div>
+		</header>
+
+		<input type="checkbox" id="check" class="hiddenMenu">
+		<div class="head">
+			<span id="content">dota2.info</span>
+			<label class="btn" for="check">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
+		<ul id="menu">
+			<li class="menu111"><a href="main.html">Главная</a></li>
+		    <li class="menu111"><a href="heroes.html">Герои</a></li>
+		    <li class="menu111"><a href="items.html">Предметы</a></li>
+		    <li class="menu111"><a href="cybersport.html">Киберспорт</a></li>
+		    <li class="menu111"><a href="https://store.steampowered.com/login/?l=russian" target="_blank">Вход в steam</a></li>
+		    <li class="menu111"><a href="https://store.steampowered.com/app/570/Dota_2/?l=russian" target="_blank">Скачать игру</a></li>
+		</ul>
+
+		<main>
+
+			<div class="block1">
+				<video poster="images\11111main\trailer.jpg"   class="video" controls     width="800" height="500">
+					<source src="images\11111main\trailer.mp4">	
+				</video>
+				<p class="text_1block">Ежедневно миллионы игроков по всему миру вступают в битву от лица одного из более сотни героев Dota 2. Неважно, будет это десятый или тысячный час в игре - в ней всегда есть место чему-то новому.</p>
+				<img class="imgblock1" src="images\11111main\1block.png" >
+			</div>
+
+			<div class="block2">
+				<p class="text_2block">Dota 2 - компьютерная многопользовательская командная игра в жанре multiplayer online battle arena, разработанная корпорацией Valve. Игра является продолжением Dota - пользовательской карты-модификации для игры Warcraft III: Reign of Chaos и дополнения к ней Warcraft III: The Frozen Throne. Игра изображает сражение на карте особого вида; в каждом матче участвуют две команды по пять игроков, управляющих «героями» — персонажами с различными наборами способностей. Для победы в матче команда должна уничтожить особый объект-«крепость», принадлежащий вражеской стороне, и защитить от уничтожения собственную «крепость».  
+				</p>
+				<img class="img5" src="images\11111main\2block.png" >
+			</div>
+			
+			<div class="block3">
+				<p class="text_3block">Каждый из десяти участников матча управляет одним персонажем, который называется героем; игроки выбирают героев из обширного списка, и каждый герой имеет свою узнаваемую внешность, силы и слабости.
+				В ходе матча игрок выполняет определённую роль, как, например: "Керри", "Саппорт", "Миддер", "Хардкери".
+				Каждый матч проходит на квадратной карте специального вида, где крепости обеих команд находятся в противоположных углах, а игроки рассредотачиваются по соединяющим эти крепости путям - «линиям».Помимо самих игроков, в игре принимают управляемые компьютером существа-«крипы» и неподвижные строения-«башни» свои с каждой стороны; они также участвуют в сражении, атакуя вражеских героев, крипов и башни противника и тем самым помогая «своей» команде Туман войны, покрывающий большую часть карты, не позволяет игрокам следить за передвижениями противника.
+				</p>
+				<img class="img6" src="images\11111main\3block.png" >
+			</div>
+		</main>
+
+		<footer>
+			<p>Designed by Greenri and Tyrlock</p>
+			<p>Page was created 11.10.2020</p>
+		</footer>
+		
+		<script type="text/javascript">
+  function digitalWatch() {
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var seconds = date.getSeconds();
+    if (hours < 10) hours = "0" + hours;
+    if (minutes < 10) minutes = "0" + minutes;
+    if (seconds < 10) seconds = "0" + seconds;
+    document.getElementById("digital_watch").innerHTML = hours + ":" + minutes + ":" + seconds;
+    setTimeout("digitalWatch()", 1000);
+  }
+</script>
+	</body>
+</html>
